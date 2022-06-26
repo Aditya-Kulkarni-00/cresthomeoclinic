@@ -17,7 +17,7 @@ function Navbar({currentLink}) {
    <Link href={"/home"}>
     <a className="flex items-center">
         <Image src="/logo.jpg" width='60' height={60}/>
-        <motion.span animate={{color :['#4C3A51', '#774360', '#B25068', '#E7AB79']}} transition={{repeat :Infinity, delay:1.5}}>
+        <motion.span animate={{color :['#4C3A51', '#774360', '#B25068', '#E7AB79']}} transition={{repeat :Infinity, delay:2}}>
           <span className="self-center text-2xl font-bold font-serif whitespace-nowrap dark:text-white" >Crest Homeo Clinic</span> 
         </motion.span>
     </a>
