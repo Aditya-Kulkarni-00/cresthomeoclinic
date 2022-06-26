@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 function Customized () {
   return (
-    <div>customized programs</div>
+  <>
+    <Navbar currentLink={"Customized"}/>
+  </>
+  
   )
 }
 

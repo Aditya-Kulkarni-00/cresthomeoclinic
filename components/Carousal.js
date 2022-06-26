@@ -30,7 +30,7 @@ function Carousal() {
                 <p className="legend">Image 5</p>
             </div>
             <div>
-                <img src="/5.jpg" alt="image5" />
+                <img src="/6.jpg" alt="image5" />
                 <p className="legend">Image 5</p>
             </div>
         </Carousel>

@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 function Articles() {
   return (
-    <div>articles</div>
+    <div>
+        <Navbar currentLink={"Articles"}/>
+    </div>
   )
 }
 

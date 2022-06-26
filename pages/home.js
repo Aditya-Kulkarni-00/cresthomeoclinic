@@ -5,8 +5,8 @@ import Carousal from "../components/Carousal"
 function Home() {
   return (
     <div className="container px-4 mx-auto">
-      <Navbar/>
-      <Carousal currentLink="Home"/>
+      <Navbar currentLink="Home"/>
+      <Carousal />
     </div>
   )
 }

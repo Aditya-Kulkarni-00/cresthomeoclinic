@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 function Contact() {
   return (
-    <div>contact</div>
+    <div>
+        <Navbar currentLink={"Contact"}/>
+    </div>
   )
 }
 

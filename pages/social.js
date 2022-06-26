@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 
 function Social() {
   return (
-    <div>social</div>
+    <div>
+        <Navbar currentLink={"Social"}/>
+    </div>
   )
 }
 
