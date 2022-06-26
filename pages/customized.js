@@ -1,9 +1,9 @@
 import React from 'react'
 
-function customized () {
+function Customized () {
   return (
     <div>customized programs</div>
   )
 }
 
-export default customized 
+export default Customized; 

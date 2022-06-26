@@ -1,9 +1,9 @@
 import React from 'react'
 
-function articles() {
+function Articles() {
   return (
     <div>articles</div>
   )
 }
 
-export default articles
+export default Articles;

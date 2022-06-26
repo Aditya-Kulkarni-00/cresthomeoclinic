@@ -1,9 +1,9 @@
 import React from 'react'
 
-function treatment() {
+function Treatment() {
   return (
     <div>treatment</div>
   )
 }
 
-export default treatment
+export default Treatment;
