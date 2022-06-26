@@ -13,14 +13,14 @@ const styles = {
 const linksArray = ["Home", "About", "Treatment", "Customized", "Social", "Reviews", "Articles", "Gallery", "Contact"]
 
 function Navbar({currentLink}) {
-const [navbar , setNavbar] = useState(false)
+const [navbar , setNavbar] = useState(true)
 return (
 <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
   <div className="container flex flex-wrap justify-between items-center mx-auto">
    <Link href={"/home"}>
     <a className="flex items-center">
         <Image src="/logo.jpg" width='60' height={60}/>
-        <motion.span animate={{color :['#4C3A51', '#774360', '#B25068', '#E7AB79']}} transition={{repeat :Infinity, delay:2}}>
+        <motion.span animate={{color :['#000000', '#0000FF', '#00FF00', '#FF0000']}} transition={{repeat :Infinity, delay:2 , duration:2}}>
           <span className="self-center text-2xl font-bold font-serif whitespace-nowrap dark:text-white" >Crest Homeo Clinic</span> 
         </motion.span>
     </a>
