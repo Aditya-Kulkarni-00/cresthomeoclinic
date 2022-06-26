@@ -9,10 +9,10 @@ function Gallery() {
     return (
         <div className='container mx-auto px-4 py-4'>
             <Navbar currentLink={"Gallery"} />
-            <div class="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-4 gap-4">
                 {
                     imageArray.map((img, index)=>(
-                        <Image src={`/${img}`} width={300} height={300} className={`rounded-md`}/>
+                        <Image src={`/${img}`} width={300} height={300} className={`rounded-md`} key={index}/>
                     ))
                 }
             </div>
