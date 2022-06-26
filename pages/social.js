@@ -9,7 +9,7 @@ function Social() {
   return (
     <div className='container mx-auto px-4 mb-4'>
         <Navbar currentLink={"Social"}/>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 gap-1 md:grid-cols-4 md:gap-4">
                 {
                     imageArray.map((img, index)=>(
                         <Image src={`/${img}`} width={300} height={300} className={`rounded-md`} key={index}/>

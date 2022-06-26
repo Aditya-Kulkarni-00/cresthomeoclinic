@@ -8,7 +8,7 @@ function Gallery() {
     return (
         <div className='container mx-auto px-4 pb-4'>
             <Navbar currentLink={"Gallery"} />
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 gap-1 md:grid-cols-4 md:gap-4">
                 {
                     imageArray.map((img, index)=>(
                         <Image src={`/${img}`} width={400} height={400} className={`rounded-md`} key={index}/>
