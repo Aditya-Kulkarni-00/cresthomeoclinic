@@ -6,7 +6,7 @@ function about() {
     <div className='container mx-auto px-4'>
       <Navbar currentLink={"About"}/>
       <div className='container mx-auto'>
-      <div className='flex flex-col md:flex-row justify-start mt-8 w-full'>
+      <div className='flex flex-col md:flex-row justify-start items-center mt-8 w-full'>
           <div className='flex flex-row justify-center lg:block'>
           <Image src={`/photos/1.jpeg`} height={200} width={200} className='object-cover rounded-lg h-64'/>
           </div>
