@@ -6,8 +6,10 @@ function about() {
     <div className='container mx-auto px-4'>
       <Navbar currentLink={"About"}/>
       <div className='container mx-auto'>
-      <div className='flex flex-col md:flex-row justify-start mt-8'>
-          <Image src={`/photos/1.jpeg`} width={400} height={400} className='rounded-lg'/>
+      <div className='flex flex-col md:flex-row justify-start mt-8 w-full'>
+          <div className=''>
+          <Image src={`/photos/1.jpeg`} height={200} width={200} className='object-cover rounded-lg h-64'/>
+          </div>
           <div className='md:w-1/2 flex flex-col items-start justify-start md:ml-8 my-8'>
             <p className='font-bold text-xl'>Dr. HANUP KUMAR</p>
             <p className='font-lg mt-4'><span className='font-bold'>Bachelor of Homeopathic Medicine and Surgery (BHMS)</span> from NTR Univesity of Health Sciences formerly UHS , Vijaywada Andra Pradesh </p>

@@ -11,7 +11,7 @@ function Gallery() {
             <div className="grid grid-cols-4 gap-4">
                 {
                     imageArray.map((img, index)=>(
-                        <Image src={`/${img}`} width={300} height={300} className={`rounded-md`} key={index}/>
+                        <Image src={`/${img}`} width={400} height={400} className={`rounded-md`} key={index}/>
                     ))
                 }
             </div>
