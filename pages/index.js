@@ -1,11 +1,9 @@
-import Navbar from "../components/Navbar"
-import Carousal from "../components/Carousal"
+import Home from "./home";
 
-export default function Home() {
+export default function Index() {
   return (
-    <div className="container px-4 mx-auto">
-      <Navbar/>
-      <Carousal/>
-    </div>
+    <>
+    <Home/>
+    </>
   )
 }
