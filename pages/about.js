@@ -12,7 +12,7 @@ function about() {
           </div>
           <div className='md:w-1/2 flex flex-col items-start justify-start md:ml-8 my-8'>
             <p className='font-bold text-xl flex flex-row justify-center w-full'>Dr. HANUP KUMAR</p>
-            <p className='font-lg mt-4'><span className='font-bold text-justify'>Bachelor of Homeopathic Medicine and Surgery (BHMS)</span> from NTR Univesity of Health Sciences formerly UHS , Vijaywada Andra Pradesh </p>
+            <p className='font-lg mt-4'><span className='font-bold text-justify'>Bachelor of Homeopathic Medicine and Surgery (BHMS)</span> from NTR Univesity of Health Sciences formerly UHS , Vijaywada, Andhra Pradesh </p>
             <p className='text-lg font-light mt-4 text-justify'>Specialist in curing Ulcers, Tonsillitis, Epilepsy, Lung Disease, Eczema, Infertility, Digestive Problems, Pimples, Hair Loss, Asthma, Osteoarthritis, Hyperacidity, Fissure, Corn Removal, Parkinson Disease, Psoriasis, Tinnitus, Peptic Ulcer, Gastroenteritis, Typhoid, Piles, Kidney Stone, Polycystic Ovarian Syndrome and more..</p>
             <p className='text-md mt-4 font-bold text-justify'>Dr Hanup has been practicing Homeopathy since 1995.</p>
           </div>

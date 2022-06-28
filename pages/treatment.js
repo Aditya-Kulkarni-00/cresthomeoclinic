@@ -7,43 +7,46 @@ function Treatment() {
     <div className='container mx-auto px-4'>
       <Navbar currentLink={"Treatment"} />
       <h2 className='flex flex-row justify-center mt-5 text-xl font-sans font-semibold'>We Care , We Cure</h2>
-      <div className="grid grid-cols-1 gap-1 md:grid-cols-2 md:gap-2 mt-6">
-        <Image src={"/treatment/1.jpg"} width={500} height={600} className="rounded-lg" />
-        <div>
-          <div className='flex flex-row justify-around items-center font-semibold text-lg leading-loose'>
-            <div className='mt-10'>
-              <p className='text-gray-900'>HOMEOPATHIC TREATMENTS FOR ULCERS</p>
-              <p className='text-blue-500'>TONSILLITIS</p>
-              <p className='text-red-500'>EPILEPSY</p>
-              <p className='text-green-500'>LUNG DISEASE</p>
-              <p className='text-orange-500'>ECZEMA</p>
-              <p className='text-sky-500'>OSTEOARTHRITIS</p>
-              <p className='text-gray-900'>HYPERACIDITY</p>
-              <p className='text-blue-500'>FISSURE</p>
-              <p className='text-red-500'>CORN REMOVAL</p>
-              <p className='text-green-500'>PARKINSON DISEASE</p>
-              <p className='text-orange-500'>PSORIASIS</p>
-            </div>
-            <div className='mt-10'>
-              <p className='text-gray-900'>INFERTILITY</p>
-              <p className='text-blue-500'>PIMPLES</p>
-              <p className='text-red-500'>DIGESTIVE PROBLEMS</p>
-              <p className='text-green-500'>HAIR LOSS</p>
-              <p className='text-orange-500'>ASTHMA</p>
-              <p className='text-sky-500'>TINNITUS</p>
-              <p className='text-gray-900'>PEPTIC ULCER</p>
-              <p className='text-blue-500'>GASTROENTERITIS</p>
-              <p className='text-red-500'>TYPHOID</p>
-              <p className='text-green-500'>PILES</p>
-              <p className='text-orange-500'>KIDNEY STONE</p>
-              <p className='text-gray-900'>POLYCYSTIC OVARIAN SYNDROME</p>
-            </div>
-          </div>
+
+      <div className='flex flex-col justify-center w-full md:flex-row items-center mt-10'>
+        <Image src={"/treatment/1.jpg"} width={600} height={600} className="rounded-lg"/>
+        <div className='w-full md:w-1/2 mt-6 md:ml-6 md:mt-0 text-2xl px-5 leading-loose  mr-4 flex-none'>
+          <p className=''>
+          <span className='text-black text-3xl font-semibold'>HOMEOPATHIC TREATMENTS FOR </span>ULCERS,
+          <span className='text-sky-500'>TONSILLITIS,</span>
+          <span className='text-rose-500'>EPILEPSY,<br/></span>
+          <span className='text-violet-500'>LUNG DISEASE,</span>
+          <span className='text-green-500'>ECZEMA,</span>
+          <span className='text-orange-400'>INFERTILITY,<br/></span>
+          <span className='text-sky-500'>DIGESTIVE PROBLEMS,</span>
+          <span className='text-rose-500'>PIMPLES,</span>
+          <span className='text-violet-500'>HAIR LOSS,</span>
+          <span className='text-green-500'>ASTHMA,</span>
+          <span className='text-orange-400'>OSTEOARTHRITIS,<br/></span>
+          <span className='text-sky-500'>HYPERACIDITY,</span>
+          <span className='text-rose-500'>FISSURE,</span>
+          <span className='text-violet-500'>CORN REMOVAL,</span>
+          <span className='text-green-500'>PARKINSON DISEASE,</span>
+          <span className='text-orange-500'>PSORIASIS,</span>
+          <span className='text-sky-500'>TINNITUS,<br/></span>
+          <span className='text-black'>PEPTIC ULCER,</span>
+          <span className='text-rose-500'>GASTROENTERITIS,<br/></span>
+          <span className='text-violet-500'>TYPHOID, PILES,</span>
+          <span className='text-orange-500'>KIDNEY STONE,</span>
+          <span className='text-sky-500'>POLYCYSTIC OVARIAN SYNDROME AND MORE..</span>
+          </p>
         </div>
-        <div className='my-10 font-bold flex flex-row justify-center items-center text-xl md:text-3xl'>NATURAL TREATMENT FOR CHRONIC DISEASE</div>
-        <Image src={"/treatment/2.jpg"} width={500} height={600} className="rounded-lg" />
-        <Image src={"/treatment/3.jpg"} width={500} height={600} className="rounded-lg" />
-        <div className='my-10 font-bold flex flex-row justify-center items-center text-xl md:text-3xl'>HOMEOPATHIC REMEDY CONCOCTION</div>
+      </div>
+
+      <div className='flex flex-col justify-center w-full md:flex-row-reverse items-center mt-10'>
+      <Image src={"/treatment/2.jpg"} width={600} height={600} className="rounded-lg"/>
+      <div className='w-full md:w-1/2 mt-6 text-3xl font-bold px-5 '>NATURAL TREATMENT FOR CHRONIC DISEASE</div>
+      </div>
+
+
+      <div className='flex flex-col justify-center w-full md:flex-row items-center my-10'>
+      <Image src={"/treatment/3.jpg"} width={600} height={600} className="rounded-lg"/>
+      <div className='w-full md:w-1/2 mt-6 md:ml-6 text-3xl font-bold px-5 '>HOMEOPATHIC REMEDY CONCOCTION</div>
       </div>
     </div>
   )
