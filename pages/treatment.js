@@ -10,8 +10,8 @@ function Treatment() {
 
       <div className='flex flex-col justify-center w-full md:flex-row items-center mt-10'>
         <Image src={"/treatment/1.jpg"} width={600} height={600} className="rounded-lg"/>
-        <div className='w-full md:w-1/2 mt-6 md:ml-6 md:mt-0 text-xl px-5 leading-loose  mr-4 flex-none'>
-          <p className=''>
+        <div className='w-full md:w-1/2 mt-6 md:ml-6 md:mt-0 text-xl leading-loose flex-none'>
+          <p className='border px-3 rounded-lg'>
           <span className='text-black text-xl md:text-2xl font-semibold text-justify'>HOMEOPATHIC TREATMENTS FOR<br/> </span>
           <span>ULCERS, </span>
           <span className='text-sky-500'>TONSILLITIS, </span>
