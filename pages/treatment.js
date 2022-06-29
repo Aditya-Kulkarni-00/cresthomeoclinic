@@ -40,13 +40,13 @@ function Treatment() {
       </div>
 
       <div className='flex flex-col justify-center w-full md:flex-row items-center mt-10'>
-      <div className='w-full md:w-1/2 mb-6 text-3xl font-bold px-5 '>NATURAL TREATMENT FOR CHRONIC DISEASE</div>
+      <div className='w-full md:w-1/2 mb-6 text-xl md:text-3xl font-bold px-5 '>NATURAL TREATMENT FOR CHRONIC DISEASE</div>
       <Image src={"/treatment/2.jpg"} width={600} height={600} className="rounded-lg"/>
       </div>
 
 
       <div className='flex flex-col justify-center w-full md:flex-row-reverse items-center my-10'>
-      <div className='w-full md:w-1/2 mb-6 md:ml-6 text-3xl font-bold px-5 '>HOMEOPATHIC REMEDY CONCOCTION</div>
+      <div className='w-full md:w-1/2 mb-6 md:ml-6 text-xl md:text-3xl font-bold px-5 '>HOMEOPATHIC REMEDY CONCOCTION</div>
       <Image src={"/treatment/3.jpg"} width={600} height={600} className="rounded-lg"/>
       </div>
     </div>
